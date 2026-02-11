@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Origen Integral</title>
-    
 
     <style>
         body {
@@ -16,15 +15,16 @@
 
         nav {
             background-color: #1f3d2b;
-            padding: 15px;
+            padding: 18px;
             text-align: center;
         }
 
         nav a {
             color: #ffffff;
             text-decoration: none;
-            margin: 0 20px;
+            margin: 0 25px;
             font-weight: bold;
+            letter-spacing: 1px;
         }
 
         nav a:hover {
@@ -32,33 +32,64 @@
         }
 
         section {
-            padding: 80px 20px;
+            padding: 100px 20px;
             text-align: center;
         }
 
         h1 {
-            font-size: 2.8rem;
-            margin-bottom: 10px;
+            font-size: 3rem;
+            margin-bottom: 40px;
         }
 
         h2 {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: normal;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
 
         .contenido {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             font-size: 1.1rem;
-            line-height: 1.7;
+            line-height: 1.8;
+        }
+
+        .producto {
+            background-color: white;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 700px;
+            border-radius: 8px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+        }
+
+        input[type="email"] {
+            padding: 12px;
+            width: 280px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #1f3d2b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #285c3f;
         }
 
         footer {
             background-color: #1f3d2b;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 30px;
         }
     </style>
 </head>
@@ -69,17 +100,20 @@
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#produccion">Producción</a>
+        <a href="#productos">Productos</a>
         <a href="#proceso">Proceso</a>
+        <a href="#comunidad">Comunidad</a>
         <a href="#contacto">Contacto</a>
     </nav>
 
-    <!-- Sección Principal -->
+    <!-- Inicio -->
     <section id="inicio">
 
         <h1>Origen Integral</h1>
 
         <h2>
-            Producción regenerativa de alimentos y sistemas vivos en equilibrio con la tierra.
+            Producción regenerativa de alimentos<br><br>
+            y sistemas vivos en equilibrio con la tierra.
         </h2>
 
         <div class="contenido">
@@ -87,6 +121,8 @@
                 Origen Integral nace de la necesidad de volver a nuestras raíces y reconectar con la tierra,
                 en un mundo cada vez más desconectado de sus ciclos naturales.
             </p>
+
+            <br><br>
 
             <p>
                 Producimos alimento bajo principios de respeto y propósito, honrando el ciclo natural de la vida.
@@ -104,10 +140,31 @@
         <h2>Producción</h2>
         <div class="contenido">
             <p>
-                Cultivamos alimentos y criamos animales bajo un modelo regenerativo que fortalece el suelo,
-                respeta los ciclos naturales y promueve sistemas vivos sostenibles.
+                Nuestro modelo fortalece el suelo, regenera la tierra y respeta los ciclos naturales,
+                creando sistemas vivos sostenibles y autosuficientes.
             </p>
         </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+
+        <div class="producto">
+            <h3>Huevos de libre pastoreo</h3>
+            <p>Alimento natural proveniente de gallinas criadas en sistemas regenerativos.</p>
+        </div>
+
+        <div class="producto">
+            <h3>Abonos orgánicos (Biol / Biodol)</h3>
+            <p>Fertilizantes vivos diseñados para restaurar y nutrir el suelo de manera natural.</p>
+        </div>
+
+        <div class="producto">
+            <h3>Fermentos minerales y mejoradores de suelo</h3>
+            <p>Soluciones biológicas que fortalecen la microbiología del suelo y el crecimiento vegetal.</p>
+        </div>
+
     </section>
 
     <!-- Proceso -->
@@ -115,19 +172,38 @@
         <h2>Proceso</h2>
         <div class="contenido">
             <p>
-                Cada etapa, desde la preparación del suelo hasta la producción final,
-                se realiza con prácticas responsables, conscientes y alineadas con el equilibrio natural.
+                Cada etapa, desde la regeneración del suelo hasta la producción final,
+                se realiza con prácticas conscientes, responsables y alineadas con el equilibrio natural.
             </p>
+        </div>
+    </section>
+
+    <!-- Comunidad -->
+    <section id="comunidad">
+        <h2>Comunidad Origen Integral</h2>
+        <div class="contenido">
+            <p>
+                Si adquiriste uno de nuestros productos, puedes formar parte de nuestra comunidad.
+                Recibe acompañamiento, recomendaciones y soporte directo.
+            </p>
+
+            <form>
+                <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                <button type="submit">Unirme</button>
+            </form>
         </div>
     </section>
 
     <!-- Contacto -->
     <section id="contacto">
-        <h2>Contacto</h2>
+        <h2>Contacto y Soporte</h2>
         <div class="contenido">
             <p>
-                Si deseas conocer más sobre nuestros productos o colaborar con nosotros,
-                puedes comunicarte directamente para recibir información personalizada.
+                Para consultas, ayuda o información adicional sobre nuestros productos,
+                puedes comunicarte directamente con nosotros.
+            </p>
+            <p>
+                Correo: contacto@origenintegral.com
             </p>
         </div>
     </section>
